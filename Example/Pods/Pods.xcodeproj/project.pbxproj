@@ -10,11 +10,11 @@
 		41767961E6241CFE5AA5296BE0AA51E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		620F60FAAC44010BF0D84D0C873C86BE /* Pods-BlinkingRandomLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF4444D9A42040996EBF940C17C27EC /* Pods-BlinkingRandomLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F2CF6015245A9B31E56BA3AEEF1030E /* Pods-BlinkingRandomLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1B1357AB375DA5E165F3F54A94EF0 /* Pods-BlinkingRandomLabel_Tests-dummy.m */; };
+		7F7F0B1B28255FD1003DA2E9 /* BlinkingRandomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F0B1A28255FD1003DA2E9 /* BlinkingRandomLabel.swift */; };
 		817808C0CD2B0B410386990DA6F8D624 /* BlinkingRandomLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C62E901EB70B9D79672DF5AED677535 /* BlinkingRandomLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81E7E0D6A72A199038E8FF173DB568B1 /* Pods-BlinkingRandomLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D975DEA0914DC2940AFB91E6F6E547F /* Pods-BlinkingRandomLabel_Example-dummy.m */; };
 		827E829F4350A5FE7D7B641E249AE51B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9735E5EB04D4EE0C6CA6516BD1B560BE /* Pods-BlinkingRandomLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 979DDB9A417F3DD799340549C400A0C5 /* Pods-BlinkingRandomLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3F500B9E66FC2820D883F268EE4FF6E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0975C4ACAC7519F3C9731B029A2F3473 /* ReplaceMe.swift */; };
 		F00F224B46D4968BF9A327F22E417B12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FB269A0CC98FE7BAF2E132C078149EE5 /* BlinkingRandomLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B53C5E6B9B5939401432757BC3DBAE /* BlinkingRandomLabel-dummy.m */; };
 /* End PBXBuildFile section */
@@ -37,11 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0106484BF7FB250F9C2259CE75F26B5E /* BlinkingRandomLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BlinkingRandomLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0975C4ACAC7519F3C9731B029A2F3473 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BlinkingRandomLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		0106484BF7FB250F9C2259CE75F26B5E /* BlinkingRandomLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BlinkingRandomLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		15E6F8CE5E3D5F88AA68CE4190431497 /* Pods-BlinkingRandomLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlinkingRandomLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		1708D3A5D8133E4BF0F5A2DE89973E81 /* Pods-BlinkingRandomLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlinkingRandomLabel_Example-Info.plist"; sourceTree = "<group>"; };
-		1D2ED4EB6B64510047B2B80461C66A72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1D2ED4EB6B64510047B2B80461C66A72 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		28B53C5E6B9B5939401432757BC3DBAE /* BlinkingRandomLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BlinkingRandomLabel-dummy.m"; sourceTree = "<group>"; };
 		290CBBFBC800343161211C8AF5F69FC3 /* Pods-BlinkingRandomLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkingRandomLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2D8A83EE1C4ECE8B24874200ED0F2C2C /* Pods-BlinkingRandomLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlinkingRandomLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -59,9 +58,10 @@
 		6C62E901EB70B9D79672DF5AED677535 /* BlinkingRandomLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BlinkingRandomLabel-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7DE3831BD4378472F6BCE1CA453E2DAD /* BlinkingRandomLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlinkingRandomLabel.release.xcconfig; sourceTree = "<group>"; };
-		8EBA2FE543FF73DCA809C54EFD6F6708 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7F7F0B1A28255FD1003DA2E9 /* BlinkingRandomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlinkingRandomLabel.swift; path = BlinkingRandomLabel/Classes/BlinkingRandomLabel.swift; sourceTree = "<group>"; };
+		8EBA2FE543FF73DCA809C54EFD6F6708 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		979DDB9A417F3DD799340549C400A0C5 /* Pods-BlinkingRandomLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlinkingRandomLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ADE32A3591287727CC38A7D702F97B39 /* Pods-BlinkingRandomLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlinkingRandomLabel_Example.modulemap"; sourceTree = "<group>"; };
 		B5754FEB96E75BC34D2E78C0C6C5500C /* BlinkingRandomLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BlinkingRandomLabel.modulemap; sourceTree = "<group>"; };
 		B92E08D3943A7F20484C4879A062CAAA /* Pods-BlinkingRandomLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlinkingRandomLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -164,9 +164,9 @@
 		66CF2539D0CA6BCAB5F79EAC7D85E025 /* BlinkingRandomLabel */ = {
 			isa = PBXGroup;
 			children = (
-				0975C4ACAC7519F3C9731B029A2F3473 /* ReplaceMe.swift */,
 				52101DDCD70D6DF5A3F932436C626CE3 /* Pod */,
 				DBE57672C82085B6B2B71C00DC6E392A /* Support Files */,
+				7F7F0B1A28255FD1003DA2E9 /* BlinkingRandomLabel.swift */,
 			);
 			name = BlinkingRandomLabel;
 			path = ../..;
@@ -384,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB269A0CC98FE7BAF2E132C078149EE5 /* BlinkingRandomLabel-dummy.m in Sources */,
-				C3F500B9E66FC2820D883F268EE4FF6E /* ReplaceMe.swift in Sources */,
+				7F7F0B1B28255FD1003DA2E9 /* BlinkingRandomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,8 +718,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
