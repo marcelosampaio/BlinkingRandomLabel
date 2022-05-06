@@ -12,6 +12,7 @@ public class BlinkingRandomLabel : UILabel {
         let options : UIViewAnimationOptions = .repeat //.Repeat | .Autoreverse
         UIView.animate(withDuration: 0.25, delay:0.0, options:options, animations: {
             self.alpha = 0
+            self.textColor = UIColor.randomColor()
             }, completion: nil)
     }
  

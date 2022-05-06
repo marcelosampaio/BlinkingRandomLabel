@@ -11,6 +11,8 @@
 		620F60FAAC44010BF0D84D0C873C86BE /* Pods-BlinkingRandomLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AF4444D9A42040996EBF940C17C27EC /* Pods-BlinkingRandomLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F2CF6015245A9B31E56BA3AEEF1030E /* Pods-BlinkingRandomLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1B1357AB375DA5E165F3F54A94EF0 /* Pods-BlinkingRandomLabel_Tests-dummy.m */; };
 		7F7F0B1B28255FD1003DA2E9 /* BlinkingRandomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F0B1A28255FD1003DA2E9 /* BlinkingRandomLabel.swift */; };
+		7F7F0B2328256E62003DA2E9 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F0B2228256E62003DA2E9 /* UIColor+Utils.swift */; };
+		7F7F0B2528257214003DA2E9 /* CGFloat+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7F0B2428257214003DA2E9 /* CGFloat+Utils.swift */; };
 		817808C0CD2B0B410386990DA6F8D624 /* BlinkingRandomLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C62E901EB70B9D79672DF5AED677535 /* BlinkingRandomLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81E7E0D6A72A199038E8FF173DB568B1 /* Pods-BlinkingRandomLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D975DEA0914DC2940AFB91E6F6E547F /* Pods-BlinkingRandomLabel_Example-dummy.m */; };
 		827E829F4350A5FE7D7B641E249AE51B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -59,6 +61,8 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7DE3831BD4378472F6BCE1CA453E2DAD /* BlinkingRandomLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BlinkingRandomLabel.release.xcconfig; sourceTree = "<group>"; };
 		7F7F0B1A28255FD1003DA2E9 /* BlinkingRandomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BlinkingRandomLabel.swift; path = BlinkingRandomLabel/Classes/BlinkingRandomLabel.swift; sourceTree = "<group>"; };
+		7F7F0B2228256E62003DA2E9 /* UIColor+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIColor+Utils.swift"; path = "BlinkingRandomLabel/Classes/UIColor+Utils.swift"; sourceTree = "<group>"; };
+		7F7F0B2428257214003DA2E9 /* CGFloat+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CGFloat+Utils.swift"; path = "BlinkingRandomLabel/Classes/CGFloat+Utils.swift"; sourceTree = "<group>"; };
 		8EBA2FE543FF73DCA809C54EFD6F6708 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		979DDB9A417F3DD799340549C400A0C5 /* Pods-BlinkingRandomLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlinkingRandomLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -167,6 +171,8 @@
 				52101DDCD70D6DF5A3F932436C626CE3 /* Pod */,
 				DBE57672C82085B6B2B71C00DC6E392A /* Support Files */,
 				7F7F0B1A28255FD1003DA2E9 /* BlinkingRandomLabel.swift */,
+				7F7F0B2228256E62003DA2E9 /* UIColor+Utils.swift */,
+				7F7F0B2428257214003DA2E9 /* CGFloat+Utils.swift */,
 			);
 			name = BlinkingRandomLabel;
 			path = ../..;
@@ -383,7 +389,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7F0B2328256E62003DA2E9 /* UIColor+Utils.swift in Sources */,
 				FB269A0CC98FE7BAF2E132C078149EE5 /* BlinkingRandomLabel-dummy.m in Sources */,
+				7F7F0B2528257214003DA2E9 /* CGFloat+Utils.swift in Sources */,
 				7F7F0B1B28255FD1003DA2E9 /* BlinkingRandomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
