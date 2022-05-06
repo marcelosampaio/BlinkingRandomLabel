@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BlinkingRandomLabel_Example' do
+  pod 'BlinkingRandomLabel', :path => '../'
+
+  target 'BlinkingRandomLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
