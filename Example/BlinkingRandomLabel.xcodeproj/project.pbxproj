@@ -480,6 +480,7 @@
 			baseConfigurationReference = 93A9822C07662BD89F12534F /* Pods-BlinkingRandomLabel_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = V56653R9Z8;
 				INFOPLIST_FILE = BlinkingRandomLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -496,6 +497,7 @@
 			baseConfigurationReference = 2EF0F45A464D3B8CEA8F28C7 /* Pods-BlinkingRandomLabel_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = V56653R9Z8;
 				INFOPLIST_FILE = BlinkingRandomLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
