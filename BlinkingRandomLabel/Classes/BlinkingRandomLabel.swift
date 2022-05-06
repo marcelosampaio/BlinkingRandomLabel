@@ -9,7 +9,7 @@ import Foundation
 
 public class BlinkingRandomLabel : UILabel {
     public func startBlinking() {
-        let options : UIViewAnimationOptions = .repeat //.Repeat | .Autoreverse
+        let options : UIView.AnimationOptions = [.repeat, .autoreverse]
         UIView.animate(withDuration: 0.25, delay:0.0, options:options, animations: {
             self.alpha = 0
             self.textColor = UIColor.randomColor()
